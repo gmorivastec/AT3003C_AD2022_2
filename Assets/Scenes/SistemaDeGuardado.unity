@@ -241,10 +241,7 @@ MonoBehaviour:
     vida: 0
     experiencia: 0
     nombre: 
-    posicion:
-    - 20
-    - 30
-    - 40
+    posicion: []
   ruta: 
 --- !u!4 &1069193567
 Transform:
