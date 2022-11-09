@@ -26,6 +26,12 @@ public class CartaLoader : MonoBehaviour
     void Start()
     {
 
+        ActualizarCarta(data);
+    }
+
+    public void ActualizarCarta(CartaScriptableObject nuevaData)
+    {
+        data = nuevaData;
         /*
         // 2 maneras de cargar sprite
         // 1- con Resources.Load
@@ -46,11 +52,5 @@ public class CartaLoader : MonoBehaviour
 
         // ESTO ES UN HACK.
         spriteRenderer.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
